@@ -1,0 +1,41 @@
+button {
+
+    background: #0A3871;
+    color: #ffffff;
+    border: none;
+
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+}
+
+#decrypt {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 24px;
+
+}
+
+#copy {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: 60px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+

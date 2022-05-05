@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Textos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/components/main-title.css">
+    <link rel="stylesheet" href="CSS/components/main-background.css">
+    <link rel="stylesheet" href="CSS/components/txt_encrypt.css">
+    <link rel="stylesheet" href="CSS/components/encrypted.css">
+    <link rel="stylesheet" href="CSS/components/warning_text.css">
+    <link rel="stylesheet" href="CSS/components/message_h2.css">
+    <link rel="stylesheet" href="CSS/components/message_p.css">
+    <link rel="stylesheet" href="CSS/components/buttons-position.css">
+    <link rel="stylesheet" href="CSS/components/buttons-style.css">
+    <link rel="stylesheet" href="CSS/components/main-image.css">
+    <link rel="stylesheet" href="CSS/components/footer.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Criptografia com Javascript</h1>
+    </header>
+    <section>
+        <main>
+            <textarea name="txt_encrypt" id="txt_encrypt"  cols="40" rows="10" placeholder="Digite seu Texto Aqui!"></textarea>
+            <div class="warning_text">
+            <img id="image_paragraph" src="assets/imagens/bi_exclamation-circle-fill.png" alt="Ponto de exclamação">
+            <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            
+            <div id="encrypted">
+                <img class="main-image" src="assets/imagens/boneco.png" alt="imagem do boneco">
+                <div class="text-position">
+                    <div id="message_h2">
+                        <h2>Nenhuma mensagem encontrada.</h2>
+                    </div>
+                    <div id="message_p">
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    <button id="copy">Copiar</button>
+                </div>
+            </div>
+            </div>               
+                <div class="buttons-position">
+                <button id="encrypt">Criptografar</button>
+                <button id="decrypt">Descriptografar</button>
+                </div>
+            </main>
+    </section>
+    <footer>
+        <p>Desenvolvido por Tarcísio Henrique - <span><a href="https://www.linkedin.com/in/tarcisio-henrique-99704612b/">Linkedin</a> - </span><span><a href="https://github.com/Ciso-Barros">github</a></span>
+    </footer>
+    
+    <script src="main.js"></script>
+
+    </body>
+</html>

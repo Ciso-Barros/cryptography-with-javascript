@@ -1,0 +1,11 @@
+.warning_text{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 600px;
+    padding-left: 99px;
+}
+
+p {
+    margin-left: 10px;
+}

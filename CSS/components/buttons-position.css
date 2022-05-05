@@ -1,0 +1,12 @@
+.buttons-position {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 100px;
+    top: 630px;
+}
