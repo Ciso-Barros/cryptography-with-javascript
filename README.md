@@ -4,7 +4,7 @@ Este é um projeto de decodificador de texto com criptografia desenvolvido com h
 
 ## Funcionalidades
 
+- Codificação de mensagens criptografadas
 - Decodificação de mensagens criptografadas
-- [Codifica Mensagem]- [Decodifica Mensagem]
 
 Exemplo:  https://ciso-barros.github.io/cryptography-with-javascript/
