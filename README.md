@@ -1,6 +1,7 @@
 # Decodificador de Texto com Criptografia
 
 Este é um projeto simples de decodificador de texto com criptografia desenvolvido com html - css e javascript. 
+Obs: Não está reponsivo
 
 ## Funcionalidades
 
