@@ -8,4 +8,5 @@ Este é um projeto simples de decodificador de texto com criptografia desenvolvi
 - Decodificação de mensagens criptografadas
 
 Exemplo:  https://ciso-barros.github.io/cryptography-with-javascript/
-(./assets/imagens/criptografia.png)
+
+![Badge de conclusão de projeto](./assets/imagens/criptografia.png)
